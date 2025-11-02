@@ -65,4 +65,4 @@ devtools::install()
 ```
 
 ## 📄 Citation
-See `Tumbaco,B.2025.ConConventional quality control `.
+See `Tumbaco,B.2025.Conventional quality control `.
