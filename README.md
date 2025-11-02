@@ -16,7 +16,7 @@ Conventional quality control (**ConvQC**) for daily climate series used in **ENA
 ## 📦 Install
 ```r
 install.packages("devtools")
-devtools::install_github("TU_USUARIO_GITHUB/ConvQcENANDES")
+devtools::install_github("Bruce1998a/ConvQcENANDES")
 library(ConvQcENANDES)
 ```
 
