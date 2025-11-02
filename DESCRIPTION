@@ -1,0 +1,32 @@
+Package: ConvQcENANDES
+Title: Conventional Quality Control Tools for ENANDES Project
+Version: 1.0.0
+Authors@R: 
+    person(given = "Bruce Anthony", family = "Tumbaco Vega",
+           email = "bruce.tumbaco@example.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3558-2923"))
+Description: Provides quality control tools for conventional meteorological data
+    within the ENANDES+ project, including format validation, logical ranges,
+    Z-score, Isolation Forest, and PCA-based anomaly detection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1)
+Imports:
+    dplyr,
+    lubridate,
+    tibble,
+    ggplot2,
+    stats,
+    isotree,
+    readr,
+    writexl
+Suggests:
+    knitr,
+    rmarkdown,
+    factoextra,
+    ggfortify
+VignetteBuilder: knitr
+URL: https://github.com/Bruce1998a/ConvQcENANDES
+BugReports: https://github.com/Bruce1998a/ConvQcENANDES/issues

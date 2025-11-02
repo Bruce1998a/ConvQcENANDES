@@ -1,0 +1,10 @@
+citHeader("Para citar ConvQcENANDES en publicaciones utilice:")
+
+citEntry(
+  entry = "Manual",
+  title = "ConvQcENANDES: Herramientas de Control de Calidad Convencional para el Proyecto ENANDES+",
+  author = person("Bruce Anthony", "Tumbaco Vega"),
+  year = "2025",
+  note = "R package version 1.0.0",
+  url = "https://github.com/Bruce1998a/ConvQcENANDES"
+)
