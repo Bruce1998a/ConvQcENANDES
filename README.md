@@ -15,7 +15,7 @@ library(ConvQcENANDES)
 ```r
 library(ConvQcENANDES)
 
-df <- ejemplo_convqc()
+df <- datos_ejemplo_convqc()
 
 d <- verificacion_formato(df, variable = 1, "01/01/2020", "31/01/2020")
 d <- rango_logico(d, inferior = 0, superior = 300, eliminar = FALSE)
