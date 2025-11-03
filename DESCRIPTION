@@ -3,12 +3,12 @@ Title: Conventional Quality Control Tools for ENANDES Project
 Version: 1.0.0
 Authors@R: 
     person(given = "Bruce Anthony", family = "Tumbaco Vega",
-           email = "bruce.tumbaco@example.com",
+           email = "brucetumbac@gmail.com",
            role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-3558-2923"))
+           comment = c(ORCID = "https://orcid.org/0000-0002-3558-2923"))
 Description: Provides quality control tools for conventional meteorological data
     within the ENANDES+ project, including format validation, logical ranges,
-    Z-score, Isolation Forest, and PCA-based anomaly detection.
+    Z-score and Isolation Forest
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
