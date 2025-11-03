@@ -1,7 +1,7 @@
 # ConvQcENANDES
 
 **ConvQcENANDES** es un paquete en R desarrollado por Bruce A. Tumbaco Vega dentro del proyecto ENANDES+.
-Permite realizar controles de calidad convencionales en series de precipitación y temperatura, incluyendo verificación de formato, rango lógico, Z-score, Isolation Forest y PCA.
+Permite realizar controles de calidad convencionales en series de precipitación y temperatura, incluyendo verificación de formato, rango lógico, Z-score, Isolation Forest.
 
 ## Instalación
 ```r
