@@ -3,9 +3,9 @@ Title: Conventional Quality Control Tools for ENANDES Project
 Version: 1.1.0
 Authors@R: 
     person(given = "Bruce Anthony", family = "Tumbaco Vega",
-           email = "bruce.tumbaco@example.com",
+           email = "brucetumbac@gmail.com",
            role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-3558-2923"))
+           comment = c(ORCID = "https://orcid.org/0000-0002-3558-2923"))
 Description: Quality control for conventional meteorological data (precipitation and temperature) used in ENANDES+. 
     Includes format verification, logical ranges, Z-score (modified for precipitation), and Isolation Forest. 
     Provides plotting and export helpers. A built-in example dataset can be loaded with datos_ejemplo_convqc().
