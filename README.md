@@ -19,7 +19,6 @@ d <- verificacion_formato(ejemplo_convqc, variable = 1, "01/01/2020", "31/01/202
 d <- rango_logico(d, 0, 300, eliminar = FALSE)
 d <- zscore_etiquetar(d, variable = 1, percentil = 0.99)
 d <- isolation_forest_etiquetar(d, contaminacion = 0.01, n_arboles = 200)
-d <- pca_outliers(d, n_comp = 2, percentil = 0.99)
 d <- construir_validacion(d)
 
 graficar_enandes(d, tipo = 3)
